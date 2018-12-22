@@ -1,4 +1,4 @@
 Git is a version control system
 Git is free software
-make a change to readme
+Git make a change to readme
 
