@@ -1,0 +1,24 @@
+Ctrl+Shift+P #opens command panel
+
+Ctrl+P 	            #locate def function
+[Home,End]          #line end or line head
+Ctrl+[Home, End]    #Page head/end
+Ctrl + M            # go to corresponding parenthesis
+Ctrl + [left, right] # go to up/down word
+
+
+Ctrl+Shift+D         #copy line/word if selected
+
+Ctrl+]/[             #line indent
+Alt+Q                #auto change line
+Ctrl+H               #find and replace
+Ctrl+Shift+F   		 #find or replace
+F6             		 #spell check on/off
+Ctrl + Enter   		 #create a new line and go to the beginning
+Ctrl + Shift + [up,down] #移动当前行
+Ctrl + Shift + L 
+Ctrl + D 			 # choose current work and highlight all 
+Ctrl + K             # ignore current one
+F3/Shift + F3        # go to next/before highlighted word
+ALt + F3             # choose all
+Ctrl + /             # 注释当前行
