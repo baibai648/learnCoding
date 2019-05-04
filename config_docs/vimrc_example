@@ -1,0 +1,33 @@
+" --------------------------------------------------- 
+" Author: Qbm 
+" Version: 0.1
+" --------------------------------------------------- 
+
+set nocompatible 
+
+"colorscheme xoria256
+colorscheme solarized
+"colorscheme desert
+
+filetype on
+filetype plugin on
+
+
+syntax on
+set background=dark
+set number
+set autoindent
+set smartindent
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+set nowrap
+
+"set textwidth=70
+set cc=80              "highlight column 80
+"set cursorcolumn
+"set cursorline
+
+set ruler              "show the current line number and column
