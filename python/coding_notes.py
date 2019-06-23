@@ -25,17 +25,26 @@ PYTHON IO
             - '{:>30}'     #right aligned
             - '{:<30}'     #legt aligned
 
+#below is a code cell block
+print('what now')
+import numpy as np
+for i in np.arange(3):
+    print (i)
+
+
+
+# another cell below
 文件修改
     - open()
         - 始终用如下格式打开文件，好处是具体结束后文件正确关闭
             - with open('myfile') as f:
                   data = f.read()
     - 一些常用函数
-        - f.read(size)     size不确定的话读取所有行 
+        - f.read(size)     size不确定的话读取所有行
         - f.readline()     读一行
         - f.readlines()    读所有行并返回列表
         - f.seak(cookie,whence)  设置当前文件位置，比如0回到开头
-            - cookie 位置偏移量，不确定实际意义 
+            - cookie 位置偏移量，不确定实际意义
             - whence 相对位置 0 开头；1当前位置；2文件末尾
         - f.tell()         查看当前位置
 
